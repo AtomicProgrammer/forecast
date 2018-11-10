@@ -1,0 +1,8 @@
+{
+  "name": "forecast",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "pro_id": "c89b10a0"
+}
