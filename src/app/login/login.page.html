@@ -1,0 +1,49 @@
+<div class="login">
+
+  <div class="welcome" style="color: white; text-align: center; font-size: 40px">欢迎您</div>
+
+  <form (submit)="doLogin()">
+
+    <div class="login-inp" style="position: relative">
+      <label><img class="label_img" src="../../assets/img/_ionicons_svg_md-person.svg"/></label>
+      <input style="width: 200px;" required type="text" placeholder="请输入手机号码"/>
+    </div>
+
+
+    <div class="login-inp" style="position: relative">
+      <label><img class="label_img" src="../../assets/img/_ionicons_svg_md-unlock.svg"/></label>
+      <input style="width: 200px;" required type="password" placeholder="请输入密码"/>
+    </div>
+
+    <div class="login-inp"><a class="text-decoration" href="#">立即登录</a></div>
+
+  </form>
+
+  <div class="login-txt">
+    <a class="text-decoration" href="#">验证码登陆</a>|
+    <a class="text-decoration" href="#">立即注册</a>|
+    <a class="text-decoration" href="#">忘记密码？</a>
+  </div>
+
+</div>
+
+
+<!--
+Want to use a Username instead of an Email? Here you go:
+
+<ion-item>
+  <ion-label floating>{{ 'USERNAME' | translate }}</ion-label>
+  <ion-input type="text" [(ngModel)]="account.username" name="username"></ion-input>
+</ion-item>
+-->
+
+<!--<ion-item>-->
+<!--<ion-label fixed>{{ 'PASSWORD' | translate }}</ion-label>-->
+<!--<ion-input type="password" [(ngModel)]="account.password" name="password"></ion-input>-->
+<!--</ion-item>-->
+
+<!--<div padding>-->
+<!--<button ion-button color="primary" block>{{ 'LOGIN_BUTTON' | translate }}</button>-->
+<!--</div>-->
+
+
